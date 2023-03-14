@@ -1,0 +1,129 @@
+@page {
+	margin: 25px 50px 0px 50px;
+	font-family: sans-serif;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.header-table {
+	border: 1px solid #000;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.header-table th {
+	width: 100%;
+	padding: 5px 10px;
+	text-align: center;
+	background-color: #8c0b1d;
+	color: #ffffff;
+}
+
+.description-table {
+	font-size: 12px;
+}
+
+/* .description-table thead th,
+.description-table tbody th,
+.description-table tbody td {
+	border: 1px solid #000;
+} */
+
+.description-table .hasil_mo {
+	width: 250px;
+}
+
+
+
+
+.folio-table {
+	border-collapse: collapse;
+	border: 1px solid #000;
+	font-size: 12px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.folio-table thead tr {
+	background-color: #8c0b1d;
+	color: #ffffff;
+}
+
+.folio-table thead th,
+.folio-table tbody th,
+.folio-table tbody td {
+	border: 1px solid #000;
+	padding: 10px;
+}
+
+.folio-table th {
+	text-align: center;
+}
+
+.folio-table tr td:nth-child(1) {
+	width: 10px;
+	text-align: center;
+}
+
+.folio-table tr.additional_costs td:nth-child(2),
+.folio-table tr.payment_histories td:nth-child(2) {
+	width: 83px;
+	text-align: center;
+}
+
+.folio-table tr.additional_costs td:nth-child(4),
+.folio-table tr.payment_histories td:nth-child(4),
+.folio-table tr.additional_costs td:nth-child(5),
+.folio-table tr.payment_histories td:nth-child(5) {
+	width: 90px;
+	text-align: center;
+}
+
+.folio-table .payment {
+	background-color: #f3f3f3;
+}
+
+
+
+
+.payment-table {
+	border-collapse: collapse;
+	border: 1px solid #000;
+	font-size: 12px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.payment-table thead tr {
+	background-color: #8c0b1d;
+	color: #ffffff;
+}
+
+.payment-table thead th,
+.payment-table tbody th,
+.payment-table tbody td {
+	border: 1px solid #000;
+	padding: 10px;
+}
+
+.payment-table th {
+	text-align: center;
+}
+
+.payment-table tr td:nth-child(1) {
+	width: 150px;
+	text-align: center;
+}
+
+.payment-table tr td:nth-child(3) {
+	width: 100px;
+	text-align: center;
+}
+
+.payment-table .payment {
+	background-color: #f3f3f3;
+}

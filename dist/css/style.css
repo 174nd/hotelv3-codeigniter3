@@ -1,0 +1,35 @@
+body> :not(.pace),
+body:before,
+body:after {
+  -webkit-transition: opacity .4s ease-in-out;
+  -moz-transition: opacity .4s ease-in-out;
+  -o-transition: opacity .4s ease-in-out;
+  -ms-transition: opacity .4s ease-in-out;
+  transition: opacity .4s ease-in-out
+}
+
+body:not(.pace-done)> :not(.pace),
+body:not(.pace-done):before,
+body:not(.pace-done):after {
+  opacity: 0
+}
+
+.select2-container:not(.select2.select2-container) {
+  z-index: 10000 !important;
+}
+
+.list-group-item:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.list-group-item:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.small-box.active > .inner {
+  border-radius: .25rem;
+  border: 5px solid #000;
+  padding: 5px;
+}
